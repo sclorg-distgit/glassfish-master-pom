@@ -3,7 +3,7 @@
 
 Name:          %{?scl_prefix}glassfish-master-pom
 Version:       8
-Release:       9.1%{?dist}
+Release:       9.2%{?dist}
 Summary:       Master POM for Glassfish Maven projects
 License:       CDDL or GPLv2 with exceptions
 URL:           http://glassfish.java.net/
@@ -39,6 +39,9 @@ sed -i 's/\r//' LICENSE.txt
 %license LICENSE.txt
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 8-9.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 8-9.1
 - Automated package import and SCL-ization
 
